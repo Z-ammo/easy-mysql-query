@@ -1,6 +1,6 @@
 {
   "name": "easy-mysql-query",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Saving your time while using the \"mysql\" module, with critical word auto uppercase.",
   "main": "index.js",
   "scripts": {
