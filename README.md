@@ -6,9 +6,7 @@ First, npm install the module.
 npm install easy-mysql-query
 ```
 you can run (not necessarily) the test and instances by
-```
-npm run test
-```
+`npm run test`
 under the 'development' mode.
 
 Second, require the module in your project.
@@ -45,9 +43,9 @@ The callback function receives two parameters, first is Error if any, second is 
 ### methods
 Four methods: 'insert', 'delete', 'update', 'search'.
 ### table
-Table must be a String, which is the single table you want to use this time.
+Table must be a String, which is the single table you want to use.
 ### columns
-Columns can be any type during 'insert' method. Columns contains the values and probably certain column names you want to insert. 
+Columns can be any type during 'insert' method. Columns contains the values and certain column names. 
 
 Columns can be String or Number if there is only one column in the table.
 ```
@@ -70,7 +68,7 @@ Columns will be ignored during 'delete' method. You can set null.
 easyMysqlQuery('delete', 'users', null, ['WHERE id=', ['001']], function(e, result) {});
 ```
 
-Columns must be an Object during 'update' method. Like the insert method, but must with the column names.
+Columns must be an Object during 'update' method. Like the insert method with the column names.
 ```
 var columns = {
   name: 'Tom',
