@@ -7,7 +7,8 @@ npm install easy-mysql-query
 ```
 you can run (not necessarily) the test and instances by
 ```
-npm run test```
+npm run test
+```
 under the 'development' mode.
 
 Second, require the module in your project.
