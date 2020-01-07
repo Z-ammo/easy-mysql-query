@@ -1,0 +1,27 @@
+{
+  "name": "easy-mysql-query",
+  "version": "0.1.0",
+  "description": "Saving your time while using the \"mysql\" module, with critical word auto uppercase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "keywords": [
+    "mysql",
+    "action",
+    "database",
+    "select"
+  ],
+  "author": {
+    "name": "Ammo Zhang",
+    "email": "ammopublisher@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "should": "^13.2.3"
+  }
+}
