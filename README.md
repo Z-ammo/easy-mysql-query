@@ -24,6 +24,17 @@ easyMysqlQuery.setConnection({
   database: '' // choose the database
 });
 ```
+Or use the Mysql pool:
+```
+easyMysqlQuery.setPool({
+  host: '127.0.0.1', // mysql address
+  port: '3306', // mysql port
+  user: 'root', // your user name
+  password: '', // your password
+  database: '', // choose the database
+  connectionLimit: 15 // set the pool limit
+});
+```
 Finally, we can start our happy-querying!
 The function ruquires 5 params:
 ```
@@ -114,4 +125,9 @@ var selectors = ['where year(birthday) between',['1988-06-02'],'and',['1993-12-3
 will come out as
 ```
 WHERE YEAR(birthday) BETWEEN \'1988-06-02\' AND \'1993-12-31\'
+```
+## output Mysql settings
+```
+var settings = easyMysqlQuery.getPool();
+var settings = easyMysqlQuery.getConnection();
 ```
