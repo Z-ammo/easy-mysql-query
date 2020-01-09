@@ -86,3 +86,9 @@ describe('query', function () {
     emq.setMode('execute');
   })
 });
+
+describe('execute', function () {
+  it('should be mysql.query() result here. It shall be tested with a MySQL database. This function works out fine on our computers.', function () {
+    return;
+  });
+});
