@@ -7,7 +7,9 @@
     "test": "mocha test/test.js"
   },
   "keywords": [
+    "easy",
     "mysql",
+    "query",
     "action",
     "database",
     "select"
@@ -17,6 +19,10 @@
     "email": "ammopublisher@gmail.com"
   },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Z-ammo/easy-mysql-query.git"
+  },
   "dependencies": {
     "mysql": "^2.17.1"
   },
